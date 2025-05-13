@@ -38,7 +38,7 @@ namespace Matrix
                     {
                         // Trocar a imagem do picb resultado para "v" e mostrar a mensagem de bem-vindo ao usuario
                         PicbVerifacacao.Image = Properties.Resources.Okmatrix;
-                        LblResultado.Text = $"Bem-vindo {TxtbNome.Text} {TxtbSobrenome.Text},\nvocê é maior de idade({idade}),\n" +
+                        LblResultado.Text = $"Bem-vindo \n{TxtbNome.Text} {TxtbSobrenome.Text},\nvocê é maior de idade({idade}),\n" +
                         "está liberado para entrar \nna Matrix.";
                         LblResultado.ForeColor = Color.White;
                     }
